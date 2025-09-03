@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/portfolio-template/"; // 👈 Replace with your repository name
+    config.base = "/Portfolio-template/"; // 👈 Replace with your repository name
   }
 
   return config;

@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter
-      basename={import.meta.env.DEV ? "/" : "/portfolio-tamplate/"}
+      basename={import.meta.env.DEV ? "/" : "/Portfolio-tamplate/"} //dette er kun til en rod, hvis det er hoved domænet så ikke sæt det ind
     >
       <App />
     </BrowserRouter>
